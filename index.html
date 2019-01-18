@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emotions Travel | Dashboard</title>
+    <link href="src/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+
+</head>
+<body>
+    <aside id="nav-lateral" class="nav-lateral">
+        <div class="title-page d-flex a-i-center j-c-center text-capitaize">
+            emotions <span>travel</span>
+        </div>
+        <ul class="text-capitaize">
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie mr-1"></i> resumen ventas
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-plane-departure mr-1"></i> crear contrato
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-search mr-1"></i> buscar contrato
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class="fas fa-chart-line mr-1"></i> markup
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-location-arrow mr-1"></i> tipos de servicios
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-users mr-1"></i> mis vendedores
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-bar mr-1"></i> mis ventas
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-money-bill-wave mr-1"></i> pagos clientes
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-globe-asia mr-1"></i> operadores
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-ban mr-1"></i> contratos cancelados
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-cc-mastercard mr-1"></i> métodos de pago
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-tachometer-alt mr-1"></i> resumen de anuncios
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-plus mr-1"></i>crear anuncio
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-search mr-1"></i> buscar anuncio
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-search mr-1"></i> buscar anuncio
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-search mr-1"></i> buscar anuncio
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <nav class="nabvar d-flex a-i-center" id="nabvar">
+        <div class="container d-flex j-c-space-between a-i-center py-1">
+            <button onclick="myFunction()" class="btn-icon" id="buttonNav" class="d-flex j-c-center aa-i-center">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h3 class="text-capitaize">sistema bloqueos</h3>
+        </div>
+    </nav>
+    <div class="wrap my-4" id="main">
+        <div class="container">
+            <div class="text-capitaize d-flex j-c-space-between a-i-center">
+                <h1>hoteles <small>sistemas travel</small> </h1>
+                <nav>
+                    <ul class="breadcrumb">
+                        <li><i class="fas fa-building  mr-1"></i><a href="#">travel</a></li>
+                        <li><a href="#" class="disabled" disabled>hotel</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card px-0 pb-2">
+                <div class="container">
+                    <div class="text-capitaize d-flex j-c-space-between a-i-center py-1">
+                        <h2 class="my-0">busqueda de hoteles</h2>
+                        <button type="button" name="button" class="btn btn-success btn-small text-capitaize border-r">
+                            <i class="fas fa-plus mr-1"></i>
+                            crear
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="my-1">
+                        <form class="" action="index.html" method="post">
+                            <div class="input-group">
+                                <button type="button" name="button" class="btn btn-primary g-item">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <input type="text" name="" value="" placeholder="Nombre hotel..." class="g-item">
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="d-flex j-c-end my-2">
+                        <nav class="pagination">
+                            <a href="#" class="p-item active" type="button">1</a>
+                            <a href="#" class="p-item">2</a>
+                            <a href="#" class="p-item">3</a>
+                            <a href="#" class="p-item">4</a>
+                            <a href="#" class="p-item">5</a>
+                            <a href="#" class="p-item">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a href="#" class="p-item">
+                                <i class="fas fa-angle-double-right"></i>
+                            </a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nombre</th>
+                                <th>Ciudad</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>21</td>
+                                <td class="text-uppercase">all ritmo</td>
+                                <td>Cancún</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" name="button" class="btn btn-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button type="button" name="button" class="btn btn-danger">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="text-uppercase">allegro cozumel</td>
+                                <td>Cancún</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" name="button" class="btn btn-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button type="button" name="button" class="btn btn-danger">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="text-uppercase">Grifo</td>
+                                <td>Cancún</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" name="button" class="btn btn-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button type="button" name="button" class="btn btn-danger">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td class="text-uppercase">bahia pricipe</td>
+                                <td>Sin definir</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" name="button" class="btn btn-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button type="button" name="button" class="btn btn-danger">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/js/script.js"></script>
+</html>
